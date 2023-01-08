@@ -310,6 +310,12 @@ container {
     padding-left: 10px;
     justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.6s;
+}
+
+.topic:hover {
+    transform: translateY(-10%);
+    transition: 0.6s;
 }
 
 .topic img {
